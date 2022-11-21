@@ -16,6 +16,9 @@ if (typeof pageLang_meta === 'undefined' || pageLang_meta === '') {
    const pageLang = pageLang_meta;
 }
 
+// set default purpose based on window.location
+// tbd
+
 if (typeof window.rnw === 'object' && typeof window.rnw.tamaro === 'object') {
    // configure raiseNow widget
    window.rnw.tamaro.runWidget('.rnw-widget-container', {
